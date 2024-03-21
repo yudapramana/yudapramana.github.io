@@ -1,0 +1,14 @@
+{
+    "product": [
+         {
+            "productID": "1",
+            "name": "Black Socks",
+            "description": "Lorem ipsum no facer prompta vim, movet ubique qui ei. Per no regione aliquid, ea mei nulla scribentur liberavisse.",
+            "price": "6.99",
+            "stock": "25",
+            "image": "placeholder.png",
+            "category_id": "1",
+            "subcategory_id": "1"
+         }
+     ]
+ } 

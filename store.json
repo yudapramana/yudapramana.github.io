@@ -1,0 +1,178 @@
+[
+    {
+        "image_name": "1_sisfopti.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994548/portfolio/1_sisfopti_m7iobx.png",
+        "title" : "Sistem Informasi Pelayanan Teknologi Informasi Fasilkom UI",
+        "caption" : "Sistem Informasi Pelayanan Teknologi Informasi",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "2_knk-customer-web.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994554/portfolio/2_knk-customer-web_cmdmsd.png",
+        "title" : "Kliknklin Customer Web Apps build with Laravel",
+        "caption" : "Kliknklin Customer Web Apps build with Laravel",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "3_knk-web-partner.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994556/portfolio/3_knk-web-partner_k59dex.png",
+        "title" : "Kliknklin Partner Web Apps build with Laravel",
+        "caption" : "Kliknklin Partner Web Apps build with Laravel",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "4_knk-web-internal.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994555/portfolio/4_knk-web-internal_iefxrn.png",
+        "title" : "Kliknklin Internal Web Apps for Data Summarize build with Laravel",
+        "caption" : "",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "5_knk-pos-web-mobile.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994558/portfolio/5_knk-pos-web-mobile_yw7vuq.png",
+        "title" : "Kliknklin POS Mobile Apps build on IOS and Android Platform",
+        "caption" : "Kliknklin POS Mobile Apps build on IOS and Android Platform. It built using react native hybrid.",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "6_knk-partner-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994559/portfolio/6_knk-partner-app_poqu9t.png",
+        "title" : "Kliknklin Partner Mobile Apps build on IOS and Android Platform",
+        "caption" : "Kliknklin Partner Mobile Apps build on IOS and Android Platform. It built using react native hybrid",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "7_vivaglo-laundry-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994561/portfolio/7_vivaglo-laundry-web-app_rcfeff.png",
+        "title" : "Vivaglo Web Apps build with Laravel",
+        "caption" : "",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "8_kominfo-sidarek-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994562/portfolio/8_kominfo-sidarek-web-app_soaefa.png",
+        "title" : "Sistem Informasi Data Perekonomian Daerah Provinsi Sumatera Barat",
+        "caption" : "Sistem Informasi Data Perekonomian Daerah Provinsi Sumatera Barat",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "9_kominfo-ppdb-2021.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994564/portfolio/9_kominfo-ppdb-2021_ltshed.png",
+        "title" : "Student Admission System for High School student in West Sumatra",
+        "caption" : "Student Admission System for High School student in West Sumatra",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "10_kominfo-sipabo-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994535/portfolio/10_kominfo-sipabo-web-app_krogp9.png",
+        "title" : "Sistem Informasi Peminjaman Alat Berat Online",
+        "caption" : "Sistem Informasi Peminjaman Alat Berat Online",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "11_kemenag-onedata-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994535/portfolio/11_kemenag-onedata-web-app_qxswdv.png",
+        "title" : "One Integrated Data System Web Application",
+        "caption" : "Data Terintegrasi Unggul Akuntabel di Kementerian Agama Kabupaten Pesisir Selatan",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "12_kemenag-mtq-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994538/portfolio/12_kemenag-mtq-web-app_xqfeuz.png",
+        "title" : "Electronic Musabaqah Tilawatil Qur’an Competition on district level",
+        "caption" : "Electronic Musabaqah Tilawatil Qur’an Competition on district level",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "13_kemenag-ptsp-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994536/portfolio/13_kemenag-ptsp-web-app_mydfv6.png",
+        "title" : "Pelayanan Terpadu Satu Pintu Kementerian Agama Kab Pesisir Selatan",
+        "caption" : "Pelayanan Terpadu Satu Pintu Kementerian Agama Kab Pesisir Selatan",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "14_kemenag-hajj-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994539/portfolio/14_kemenag-hajj-web-app_du8ezk.png",
+        "title" : "Web App System for Hajj Digital Transformation",
+        "caption" : "A web application system for Hajj",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "15_kemenag-ppid-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994542/portfolio/15_kemenag-ppid-web-app_slpbih.png",
+        "title" : "Sistem Pejabat Pengelola Informasi dan Dokumentasi Web Application",
+        "caption" : "Sistem Pejabat Pengelola Informasi dan Dokumentasi di Kementerian Agama Kabupaten Pesisir Selatan",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "16_dukungcalonmu-pemira-bem-web-app.jpg",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994541/portfolio/16_dukungcalonmu-pemira-bem-web-app_iridfm.jpg",
+        "title" : "Online Election of Student Council President Web Application",
+        "caption" : "Online Election of Student Council President and Campus Council Members ",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "17_kemenag-eagenda-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994545/portfolio/17_kemenag-eagenda-web-app_vgzrjr.png",
+        "title" : "Electronics Agenda of Officials Web based Application",
+        "caption" : "Electronics Agenda of Head Office South Pesisir Regency Ministry Religious Affairs",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "18_kemenag-eguestbook-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994543/portfolio/18_kemenag-eguestbook-web-app_tvmzeb.png",
+        "title" : "Online / Electronic Guest Book System Web Application",
+        "caption" : "Online Guest Book System for Public in South Pesisir Regency Ministry Religious Affairs",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "19_kemenag-esurvey-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994547/portfolio/19_kemenag-esurvey-web-app_yqjydc.png",
+        "title" : "Survey Indeks Kepuasan Masyarakat Web Application",
+        "caption" : "Survey Indeks Kepuasan Masyarakat",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "20_pandanviewmandeh-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994549/portfolio/20_pandanviewmandeh-web-app_g7cn1x.png",
+        "title" : "PandanViewMandeh - A Travel Destination Websites",
+        "caption" : "A Travel Destination Websites. Work both to promote the place and it has sales-marketing features.",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "21_kemenag-newsportal-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994551/portfolio/21_kemenag-newsportal-web-app_klioqf.png",
+        "title" : "Kemenag Sumbar News Portal, Data and Information",
+        "caption" : "Kemenag Sumbar News Portal",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    },
+    {
+        "image_name": "22_kemenag-ekin-web-app.png",
+        "image_url" : "https://res.cloudinary.com/dezj1x6xp/image/upload/v1710994552/portfolio/22_kemenag-ekin-web-app_vphuwk.png",
+        "title" : "Laporan Capaian Kinerja Harian Web Application",
+        "caption" : "Laporan Capaian Kinerja Harian Web Application",
+        "description" : "",
+        "icon" : "fas fa-code fa-fw"
+    }
+]

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Yuda Pramana - Portfolio</title>
+    <meta name="description"
+        content="A PHP Ninja based in Padang, Indonesia. Web Enthusiast. Play PUBG, freelancing, overly attached to Laravel." />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@yudapramana">
+    <meta name="twitter:title" content="Yuda Pramana - A PHP Ninja based in Padang">
+    <meta name="twitter:description"
+        content="A PHP Ninja based in Padang, Indonesia. Web Enthusiast. Play PUBG, freelancing, overly attached to Laravel.">
+    <meta name="twitter:creator" content="@yudapramana">
+    <meta name="twitter:image" content="/assets/img/landing.jpg">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Yuda Pramana - A PHP Ninja based in Padang" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="/assets//img/landing.jpg" />
+    <meta property="og:description"
+        content="A PHP Ninja based in Padang, Indonesia. Web Enthusiast. Play PUBG, freelancing, overly attached to Laravel." />
+    <meta property="og:site_name" content="prydsy.xyz" />
+    <meta property="fb:admins" content="" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="https://prydsy.xyz/asset/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://prydsy.xyz/asset/img/favicon.ico" type="image/x-icon">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome core CSS -->
+    <link href="css//fontawesome/css/all.min.css" rel="stylesheet">
+
+    <!-- Fancybox -->
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <style>
+        .card-img-top {
+            height: 200px !important;
+
+        }
+    </style>
+
+
+
+</head>
+
+<body class="bg-light">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">Yuda Pramana</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services.html">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron header-background mt-5">
+        <div class="container text-center" style="color: #343a40!important;">
+            <h1 class="display-4 mt-5 font-weight-bold">Portfolio</h1>
+            <p>Some of my past projects.</p>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row" id="list-portfolio">
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; 2024 Yuda Pramana<br>
+                SSD hosting by
+                <a href="https://domainesia.com" target="_blank"><i class="fab fa-linode fa-lg"></i></a> |
+                <a href="https://twitter.com/yudapramana" target="_blank"><i class="fab fa-twitter-square fa-lg"></i></a>
+                <a href="https://github.com/yudapramana" target="_blank"><i class="fab fa-github-square fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/pramana-yuda-sayeti-29450963/" target="_blank"><i
+                        class="fab fa-linkedin fa-lg"></i></a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="css/fontawesome/js/all.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script>
+        let db;
+        function fetchDB() {
+            if (db) return Promise.resolve(db);
+            return fetch("./store.json")
+                .then(response => {
+                    db = response.json();
+                    return db;
+                }).catch(err => console.log(err));
+        }
+
+        fetchDB().then(d => {
+            console.log('return data');
+            console.log(d);
+
+            var obj = d.reverse();
+
+            var datahtml = '';
+            obj.forEach((item, key) => {
+                console.log(key);
+                console.log(item);
+                // assets/img/portfolio/${item.image_name}
+                console.log(item.image_name);
+                console.log(item['image_name']);
+                 datahtml += `<div class="col-lg-4 col-md-6">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" src="${item.image_url}" alt="Portfolio image">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                           ${item.title}</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a href="${item.image_url}" data-fancybox="group"
+                                                    data-caption="${item.caption}">
+                                                    <button type="button" class="btn btn-sm btn-outline-info"><i
+                                                            class="fas fa-search fa-fw"></i> View</button></a>
+                                            </div>
+                                            <i class="${item.icon}" title="Youtube"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>`;
+
+            });
+
+            
+            $("#list-portfolio").append(datahtml);
+        });
+    </script>
+
+</body>
+
+</html>
